@@ -1,0 +1,108 @@
+#layoutputih{
+	margin:auto;
+	width:964px;
+	height:900px;
+	background-color:white;
+}
+#header{
+	border:1px solid black;
+	width:964px;
+	height:100px;
+	background-color:white;
+}
+
+
+
+/*==========Menu Atas============*/
+#menu{
+	border:1px solid black;
+	margin:auto;
+	width:964px;
+	height:34px;
+	background:-webkit-linear-gradient(bottom,black,white,white,black);
+}
+.main_menu{
+	line-height:30px;
+	color:black;
+	font-size:20px;
+	font-family:fontbutton;
+}
+
+.main_menu ul{
+	 padding:0px;
+	 margin:0px;
+	 list-style:none;
+}
+
+.main_menu ul li{
+	 background:-webkit-linear-gradient(bottom,black,white,white,black);
+	 border-right: 1px solid black;
+	 float:left;
+}
+
+.main_menu ul li a:link{
+	 color:black; /*warna font main*/
+	 display:block;
+	 text-decoration:none;
+	 padding:2px;
+}
+
+.main_menu ul li a:hover{
+	 background:#66ccff;
+	 color:white;
+}
+
+.main_menu ul li a:active{
+	 background:white;
+	 color:white;
+}
+
+/*====================================*/
+#layoutputih2{
+	border:1px solid black;
+	margin:auto;
+	width:964px;
+	height:500px;
+	background-color:white;
+}
+#newskiri{
+	float:left;
+	width:660px;
+	height:500px;
+	background-color:white;
+}
+.button {
+	color:white;
+	background-color:#66ccff;
+	width:70px;
+	float:left;
+	margin:10px;
+	padding:2px;
+	text-align:center
+}
+b:link {
+	text-decoration:none;
+	background-color:#66ccff;
+	color:white;
+} 
+
+b:hover {
+	color:white;
+} 
+
+b:active {
+	color:white;
+}
+.button:hover{
+	background-color:red;
+}
+#bottom{
+	float:left;
+	margin:auto;
+	border-right:1px solid black;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	width:964px;
+	text-align:right;
+	background-color:white;
+}
